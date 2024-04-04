@@ -1,0 +1,115 @@
+
+body{
+  width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-color: #ccc;
+}
+#root{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif
+}
+
+/* CONTAINERS */
+.wrapper{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+.sorting__wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  margin: 50px
+  
+
+}
+.sorting__wrapper__label{
+  width: 100%;
+  font-size: 12px;
+  text-align: center;
+}
+.sorting__wrapper__button{
+  background-color: #111827;
+  border: 1px solid transparent;
+  border-radius: .75rem;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex: 0 0 auto;
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  padding: .75rem 1.2rem;
+  text-align: center;
+  text-decoration: none #6B7280 solid;
+  width: 150px;
+  margin: 5px 10px;
+}
+.sorting__wrapper__button:active,
+.sorting__wrapper__button:hover {
+  outline: 0;
+}
+
+.filter__form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 200px;
+}
+.filter__form__label{
+  font-size: 12px;
+}
+.filter__form__input{
+  margin: 5px 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #000;
+  max-width: 100px;
+  font-size: 16px;
+}
+/* ERRORS */
+.Info{
+  border: 1px solid green;
+  color: green;
+}
+.Warning{
+  border: 1px solid orange;
+  color: orange;
+}
+.Error{
+  border: 1px solid red;
+  color: red;
+}
+.popup{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  top: 7%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  padding: 5px;
+  font-size: 12px;
+  transition: 0.3s ease-in-out;
+}

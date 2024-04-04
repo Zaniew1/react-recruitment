@@ -1,0 +1,37 @@
+.sorting__wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 50px
+    
+  
+  }
+  .sorting__wrapper__label{
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+  }
+  .sorting__wrapper__button{
+    background-color: #111827;
+    border: 1px solid transparent;
+    border-radius: .75rem;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    flex: 0 0 auto;
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    padding: .75rem 1.2rem;
+    text-align: center;
+    text-decoration: none #6B7280 solid;
+    width: 150px;
+    margin: 5px 10px;
+  }
+  .sorting__wrapper__button:active,
+  .sorting__wrapper__button:hover {
+    outline: 0;
+  }
+  

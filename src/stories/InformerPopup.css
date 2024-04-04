@@ -1,0 +1,27 @@
+.Info{
+    border: 1px solid green;
+    color: green;
+  }
+  .Warning{
+    border: 1px solid orange;
+    color: orange;
+  }
+  .Error{
+    border: 1px solid red;
+    color: red;
+  }
+  .popup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    top: 7%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    padding: 5px;
+    font-size: 12px;
+    transition: 0.3s ease-in-out;
+    color:#000
+  }
