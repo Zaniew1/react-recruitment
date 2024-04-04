@@ -21,11 +21,12 @@ export const useGetAllTags = () => {
             return el;
           })
           setTags(allTags);
+          setErrorType("Info");
+          setErrorMessage("Succesfully downloaded tags");
         }
       }catch(error){
-        console.log(error);
         setErrorType("Error");
-        setErrorMessage(String(error))
+        setErrorMessage(String(error));
     }
   }
     fetchTags();
