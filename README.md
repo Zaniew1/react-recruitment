@@ -1,5 +1,13 @@
 # React + TypeScript + Vite
 
+# FOR TESTING PURPOSES USE:
+ # npm i 
+ # npm start
+ # npm run storybook 
+
+
+
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
